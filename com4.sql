@@ -8,5 +8,8 @@ Teacher varchar(255)
 );
 
 
-INSERT INTO users (YearGroup, FirstName, LastName, Teacher)
-VALUES (12, "ED","firbank", "MR Balderson");
+CREATE TABLE questions
+( QuestionID int not null auto_increment primary key,
+Question varchar (50)
+);
+
